@@ -1,5 +1,4 @@
 import xlsxwriter
-from scraper import get_array
 
 
 def writer(parametr):
@@ -22,6 +21,3 @@ def writer(parametr):
         row += 1
 
     book.close()
-
-
-writer(get_array)
