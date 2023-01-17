@@ -3,7 +3,7 @@ from scraper import get_array
 
 
 def writer(parametr):
-    book = xlsxwriter.Workbook("./level_0/data.xlsx")
+    book = xlsxwriter.Workbook("./var_0/data.xlsx")
     page = book.add_worksheet("товар")
 
     row = 0

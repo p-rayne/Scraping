@@ -9,7 +9,7 @@ headers = {
 
 def download(url):
     resp = requests.get(url, stream=True)
-    with open("./level_0/images/" + url.split("/")[-1], "wb") as f:
+    with open("./var_0/images/" + url.split("/")[-1], "wb") as f:
         for value in resp.iter_content(1024 * 1024):
             f.write(value)
 
