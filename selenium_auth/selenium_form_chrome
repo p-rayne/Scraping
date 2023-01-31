@@ -41,7 +41,7 @@ try:
 
     password_input = driver.find_element("name", "password")
     password_input.clear()
-    password_input.send_keys(LOGIN)
+    password_input.send_keys(PASSWORD)
     time.sleep(5)
 
     continue_button = driver.find_element(
