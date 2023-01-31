@@ -52,7 +52,7 @@ try:
     # time.sleep(15)
 
     # # cookies
-    # with open(f"{LOGIN}_cookies", "wb") as file:
+    # with open("cookies", "wb") as file:
     #     pickle.dump(driver.get_cookies(), file)
 
     ############################## read cookie ###############################################
@@ -60,7 +60,7 @@ try:
     driver.get("https://vk.com")
     time.sleep(5)
 
-    with open(f"{LOGIN}_cookies", "rb") as file:
+    with open("cookies", "rb") as file:
         for cookie in pickle.load(file):
             driver.add_cookie(cookie)
 
