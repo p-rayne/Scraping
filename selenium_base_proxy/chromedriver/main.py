@@ -34,7 +34,7 @@ proxy_options = {"proxy": {"https": f"http://{login}:{password}@138.128.91.65:80
 # )
 
 driver = webdriver.Chrome(
-    executable_path="/home/p-rayne/Python/Learning/Scraping/selenium_0/chromedriver/chromedriver",
+    executable_path="/home/p-rayne/Python/Learning/Scraping/chromedriver",
     seleniumwire_options=proxy_options,
 )
 
