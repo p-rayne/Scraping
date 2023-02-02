@@ -36,7 +36,7 @@ proxy_options = {"proxy": {"https": f"http://{login}:{password}@138.128.91.65:80
 # )
 
 driver = webdriver.Firefox(
-    executable_path="/home/p-rayne/Python/Learning/Scraping/selenium_0/firefoxdriver/geckodriver",
+    executable_path="/home/p-rayne/Python/Learning/Scraping/geckodriver",
     seleniumwire_options=proxy_options,
 )
 
